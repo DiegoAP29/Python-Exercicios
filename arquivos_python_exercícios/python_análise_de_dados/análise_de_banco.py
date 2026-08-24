@@ -2,7 +2,7 @@ import pandas as pd
 
 import plotly.express as px
 
-tabela = pd.read_csv("python_análise_de_dados/clientes_banco.csv")
+tabela = pd.read_csv("arquivos_python_exercícios/python_análise_de_dados/arquivos_csv/clientes_banco.csv")
 
 #atribui a tabela, o banco de dados
 
