@@ -4,7 +4,7 @@ import plotly.express as px
 
 import time
 
-tabela = pd.read_csv("arquivos_python_exercícios/python_análise_de_dados/arquivos_csv/vendas_loja.csv")
+tabela = pd.read_csv("python_análise_de_dados/arquivos_csv/vendas_loja.csv")
 
 tabela['faturamento_total'] = tabela['quantidade'] * tabela['preco_unitario']
 #cria tabela de faturamento total

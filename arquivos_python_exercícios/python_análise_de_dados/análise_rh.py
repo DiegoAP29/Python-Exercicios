@@ -4,7 +4,7 @@ import plotly.express as px
 
 import time
 
-tabela = pd.read_csv("arquivos_python_exercícios/python_análise_de_dados/arquivos_csv/rh_funcionarios.csv")
+tabela = pd.read_csv("python_análise_de_dados/arquivos_csv/rh_funcionarios.csv")
 
 tabela = tabela.sort_values(by = "salario", ascending = False)
 #organiza pelo salário, no topo os maiores e vai descendo

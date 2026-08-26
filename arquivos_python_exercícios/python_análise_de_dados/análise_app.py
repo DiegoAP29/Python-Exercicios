@@ -4,7 +4,7 @@ import plotly.express as px
 
 import time
 
-tabela = pd.read_csv("arquivos_python_exercícios/python_análise_de_dados/arquivos_csv/avaliacoes_app.csv")
+tabela = pd.read_csv("python_análise_de_dados/arquivos_csv/avaliacoes_app.csv")
 
 print(tabela['plano'].value_counts())
 #mostra a quantidade de cada plano, o value_counts() mostra a quantidade de cada item na coluna
